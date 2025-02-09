@@ -1,0 +1,53 @@
+.filters {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+    margin-block-start: 1.5rem; 
+  }
+  
+  label[for='search-country'] {
+    color: var(--clr-input);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    background-color: var(--elements-light-mode);
+    box-shadow: var(--light-mode-shadow);
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+  
+  label[for='search-country'].dark, #region-filter.dark {
+    background-color: var(--elements-dark-mode);
+    box-shadow: var(--dark-mode-shadow);
+    color: var(--txt-dark-mode);
+  }
+  
+  label[for='search-country'].dark input {
+    color: var(--txt-dark-mode);
+  }
+  
+  label[for='search-country']:focus-visible, label[for='search-country']:focus-within {
+    border: .05rem solid currentColor;
+  } 
+  
+  .filters #search-country {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  .filters img {
+    width: 1.7rem;
+  }
+  
+  #region-filter {
+    padding: 1.2rem 2rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1rem;
+  }
+  

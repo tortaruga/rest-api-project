@@ -1,0 +1,42 @@
+nav {
+    padding: 1.5rem 1.5rem;
+    box-shadow: var(--light-mode-shadow);
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+  }
+  
+  nav.dark {
+    background-color: var(--elements-dark-mode);
+    box-shadow: var(--dark-mode-shadow);
+  }
+  
+  nav.dark button {
+    box-shadow: var(--dark-mode-shadow);
+  }
+  
+  nav .title {
+    font-size: calc(.9rem + 1vw);
+    font-weight: 800;
+  }
+  
+  .dark-mode {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;   
+    gap: .6rem;
+    color: inherit;
+  }
+  
+  .dark-mode img {
+    width: 1.3rem;
+  }
+  
