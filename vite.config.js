@@ -9,7 +9,6 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        secondary: resolve(__dirname, 'public/country-details.html'),
       },
     },
   },
